@@ -1,0 +1,1571 @@
+{
+  "elapsedMilliseconds": 0,
+  "count": 4487,
+  "countFacets": {
+    "hasimage": 3972,
+    "ondisplay": 34
+  },
+  "artObjects": [
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-4691",
+        "web": "http://www.rijksmuseum.nl/en/collection/SK-A-4691"
+      },
+      "id": "en-SK-A-4691",
+      "objectNumber": "SK-A-4691",
+      "title": "Self-portrait",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait, Rembrandt van Rijn, c. 1628",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "89de22aa-e19f-4c83-87ff-26dd8f319c05",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2118,
+        "height": 2598,
+        "url": "https://lh3.googleusercontent.com/7qzT0pbclLB7y3fdS1GxzMnV7m3gD3gWnhlquhFaJSn6gNOvMmTUAX3wVlTzhMXIs8kM9IH8AsjHNVTs8em3XQI6uMY=s0"
+      },
+      "headerImage": {
+        "guid": "99061015-b788-42ed-a9d8-06db0bcf39e3",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh3.googleusercontent.com/WKIxue0nAIOYj00nGVoO4DTP9rU2na0qat5eoIuQTf6Fbp4mHHm-wbCes1Oo6K_6IdMl6Z_OCjGW_juCCf_jvQqaKw=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-4050",
+        "web": "http://www.rijksmuseum.nl/en/collection/SK-A-4050"
+      },
+      "id": "en-SK-A-4050",
+      "objectNumber": "SK-A-4050",
+      "title": "Self-portrait as the Apostle Paul",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait as the Apostle Paul, Rembrandt van Rijn, 1661",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "58f00619-2e35-4d7d-a46d-0dcc6618f4ec",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2287,
+        "height": 2724,
+        "url": "https://lh3.googleusercontent.com/NrCcfeY0r2F3M2hIQe5SLDRofR2tVzeOH18VjflOYGj88v4clb4v2H_VgCZR4nJhYsxxH9ATzfkL2tRqOWEK5-gPVEE=s0"
+      },
+      "headerImage": {
+        "guid": "aba7d9da-5d4b-4389-8347-c3de63c33d98",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2276,
+        "height": 544,
+        "url": "https://lh3.googleusercontent.com/koQbNAoqV857feer4wJRVF-lbFzyNdvSsjgnXTTF3P3Dmgm2s_7noCVyqsxr1466YiIccueR0DpaU9-wPchhM0bIiQ=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/SK-C-1768",
+        "web": "http://www.rijksmuseum.nl/en/collection/SK-C-1768"
+      },
+      "id": "en-SK-C-1768",
+      "objectNumber": "SK-C-1768",
+      "title": "Portrait of Oopjen Coppit",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Portrait of Oopjen Coppit, Rembrandt van Rijn, 1634",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "6dd85188-6e00-45f5-a749-b0d6f7bf373b",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 4746,
+        "height": 7485,
+        "url": "https://lh3.googleusercontent.com/ib8SNTK2Qk-z64UYuu-_mI3FswMpYmmNU871wu5diDEPyjxmYJcNI4qRtqxlvKkVnrXTAxAFkuHX7DAN9ZwPFzS5fGE=s0"
+      },
+      "headerImage": {
+        "guid": "6ac7e269-da2e-4bf3-a870-809db805fe62",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 4746,
+        "height": 1134,
+        "url": "https://lh3.googleusercontent.com/ydZiwQgiic6wYdPwjbx5s04tdOHwkOgbA_lvtMrQvjWMqz4rYJRrxCn0s3592MfHWN6K__QlR48S962J8c4mHEzYwwY=s0"
+      },
+      "productionPlaces": [
+        "Amsterdam"
+      ]
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/SK-A-3341",
+        "web": "http://www.rijksmuseum.nl/en/collection/SK-A-3341"
+      },
+      "id": "en-SK-A-3341",
+      "objectNumber": "SK-A-3341",
+      "title": "Portret van Rembrandt Harmensz. van Rijn",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Portret van Rembrandt Harmensz. van Rijn, Rembrandt van Rijn (follower of), 1640 - 1800",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "2be84bc7-f24c-4653-8a3d-6e278586297a",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2111,
+        "height": 2601,
+        "url": "https://lh3.googleusercontent.com/nTZOJdH_heYse6joztZjr6nl_q1jrPLtleYaE0p6fKxT8cFDDhW7sE1V36YStELCFats3rnsAkPZAFWPcFlvaBxL97I=s0"
+      },
+      "headerImage": {
+        "guid": "a3b5abb5-9160-4bfe-ac25-5ff398c43b85",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh3.googleusercontent.com/pdq8wYiaGSyVjRKkAC7RlaorH6y03oRzGbOaKS9rxIDEqr-nlgSBcK7TvE_TecP0dANemxy7W-rBEs1Gvt6nN3XJKg=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-778",
+        "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-778"
+      },
+      "id": "en-RP-P-OB-778",
+      "objectNumber": "RP-P-OB-778",
+      "title": "Sheet of Studies with a Tree and the Upper Part of Rembrandt’s Head in a Velvet Cap",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Sheet of Studies with a Tree and the Upper Part of Rembrandt’s Head in a Velvet Cap, Rembrandt van Rijn, c. 1644",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "21befe52-1650-44ea-b1df-3b6fac9b0c41",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2617,
+        "height": 3000,
+        "url": "https://lh4.ggpht.com/MLzjuS57FcdN6WRQM9d76PUhubggfZPhgZxMgwzB0_T51_fkDk-CYtYjIP7Bvm8VGCySjtYBCgzyVOWhY8F99YyxSHjn=s0"
+      },
+      "headerImage": {
+        "guid": "62882dbb-c5ad-4c6c-b060-a27e655d8cb4",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh4.ggpht.com/W6lSvQw6WGE5QeoimXUKg1E4fbOM2o1lFY_kJelKzzhCxh0ejr8z8r6a5zsfN7cKRV00gGhikCTII6cevRYg7cCsEnw=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-50",
+        "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-50"
+      },
+      "id": "en-RP-P-OB-50",
+      "objectNumber": "RP-P-OB-50",
+      "title": "Self-portrait with bushy hair: bust",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait with bushy hair: bust, Rembrandt van Rijn, c. 1631",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "fe61c4c7-6675-4c46-8659-5d5fdaf0449b",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2241,
+        "height": 2500,
+        "url": "https://lh5.ggpht.com/soWJWHmOATtFFYwD__6FS8GHkkKUa7bYlXHuvWU7pW51VJHAjlGycNb-YUvs2KmQ3rNxuy63dNWp71UGIvK9fUgwGJI=s0"
+      },
+      "headerImage": {
+        "guid": "779f9550-b8eb-491a-879d-43472524a854",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh5.ggpht.com/t_MO4uOBa3ZjgSVCfrhTgPo1l0_dVD_L1TnBOTOyPKsLNZiYF-rDb6_ZVwaxUKevZvgZgOMvj5ue0MLVIGmAYHysgss=s0"
+      },
+      "productionPlaces": [
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-9",
+        "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-9"
+      },
+      "id": "en-RP-P-OB-9",
+      "objectNumber": "RP-P-OB-9",
+      "title": "Self-portrait in a cap and dark cloak: bust",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait in a cap and dark cloak: bust, Rembrandt van Rijn, c. 1631",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "d0a09682-99ec-4bbf-a577-49dcfcf0a139",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1992,
+        "height": 2170,
+        "url": "https://lh3.ggpht.com/cm7kZKxT_TOzxchSJj0c0FrnbkKfDjV-bM6x9693MCnGwDB4niy3Mhjeq9-1VfMadkr2jV2silWecGsFUT2Jy3uVcg=s0"
+      },
+      "headerImage": {
+        "guid": "8f7e9017-76ca-4658-b99e-19fe918e0ad6",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh6.ggpht.com/zCOqRzE02RncZUeodqPvPDSbOPFFvUb_eA2wUZwH3p0UaOR-ZvBe318FLM0iW1W5CCg2QIEI1KY_BmPCqOmhlneUUJw=s0"
+      },
+      "productionPlaces": [
+        "Netherlands"
+      ]
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-OB-49",
+        "web": "http://www.rijksmuseum.nl/en/collection/RP-P-OB-49"
+      },
+      "id": "en-RP-P-OB-49",
+      "objectNumber": "RP-P-OB-49",
+      "title": "Self-portrait with bushy hair: bust",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait with bushy hair: bust, Rembrandt van Rijn, c. 1631",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "602b403c-263d-471d-aa4d-5909337f4ed5",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2364,
+        "height": 2500,
+        "url": "https://lh5.ggpht.com/hR8Wv5BQ8jZuwxV7uCCfKX_ivf5zTyYmrL2zqQLcwaPZPbDZoyAQuQWH1d5QMn77w1rgFbNtvG4pyH7eRxt81eIfGWY=s0"
+      },
+      "headerImage": {
+        "guid": "461c352b-42dc-4f38-b3be-09f38531cc51",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh3.ggpht.com/H38gBTWGW4NM8m3sJCLBYZEhYKZvPsGVfv_mJX7g-w6_tz9uHnPORsm_cgHWVRVhYogotLVyMKW113OCE_-1aaH5lA=s0"
+      },
+      "productionPlaces": [
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1961-981",
+        "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1961-981"
+      },
+      "id": "en-RP-P-1961-981",
+      "objectNumber": "RP-P-1961-981",
+      "title": "Self-portrait in a slant fur cap: bust",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait in a slant fur cap: bust, Rembrandt van Rijn, c. 1631",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "ce5403d8-69ab-424a-b6a2-3c37be81a791",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2040,
+        "height": 2043,
+        "url": "https://lh4.ggpht.com/wg8Xu95fu9sMC3vPZa51Y_Pn76Q7YsNO4MZRzJUZoT07fvkMA7Q6hKW1D_5pmBpKH_ujC4-wjGLFIHMrAViHew3Stw=s0"
+      },
+      "headerImage": {
+        "guid": "a55d0930-07f5-4ef5-881f-2706a1520e61",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh6.ggpht.com/e6WJvJvohlNgSn5CDiRoHipiJXw2YZUj7CEyZd8GRN5kSPvEDs__0P5_gPL3a4nc6wLW2VFsBcpGOZTNy0tzR8mUms4=s0"
+      },
+      "productionPlaces": [
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "links": {
+        "self": "http://www.rijksmuseum.nl/api/en/collection/RP-P-1961-982",
+        "web": "http://www.rijksmuseum.nl/en/collection/RP-P-1961-982"
+      },
+      "id": "en-RP-P-1961-982",
+      "objectNumber": "RP-P-1961-982",
+      "title": "Self-portrait in a slant fur cap: bust",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt van Rijn",
+      "longTitle": "Self-portrait in a slant fur cap: bust, Rembrandt van Rijn, c. 1631",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "163b6433-25b9-4fec-a929-00ba659b39d8",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 2196,
+        "height": 2247,
+        "url": "https://lh6.ggpht.com/qTE0M7vfqaibePRuPi0z9KVc0L79mzSZdXWe-SkehxRiNq_ey0j20gwQ2Unn8Xes-zCsrCmOcBZJ-MHy1wxPMfmNeLGW=s0"
+      },
+      "headerImage": {
+        "guid": "17b7d5f1-e486-4170-b0f2-e7a6db8e0322",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1920,
+        "height": 460,
+        "url": "https://lh5.ggpht.com/WtHj6OQVDs8L8q09K9Jf-KoTGhPO_vFMrMrfoySWL9KH9TfoyveI0jxpbv8uoo82meh6ZerJTMaZaF_77rv-aKoVpA=s0"
+      },
+      "productionPlaces": [
+        "Netherlands",
+        "Netherlands"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facets": [
+        {
+          "key": "Rembrandt van Rijn",
+          "value": 1553
+        },
+        {
+          "key": "anonymous",
+          "value": 498
+        },
+        {
+          "key": "Ignace-Joseph de Claussin",
+          "value": 71
+        },
+        {
+          "key": "Pierre François Basan",
+          "value": 61
+        },
+        {
+          "key": "Léopold Flameng",
+          "value": 54
+        },
+        {
+          "key": "Johannes Pieter de Frey",
+          "value": 47
+        },
+        {
+          "key": "Bernard Picart",
+          "value": 43
+        },
+        {
+          "key": "Georg Friedrich Schmidt",
+          "value": 43
+        },
+        {
+          "key": "William Baillie",
+          "value": 41
+        },
+        {
+          "key": "Johann Wilhelm Kaiser (I)",
+          "value": 38
+        },
+        {
+          "key": "Nikolay Semyonovich Mosolov",
+          "value": 37
+        },
+        {
+          "key": "William Unger",
+          "value": 36
+        },
+        {
+          "key": "Bisson Frères",
+          "value": 33
+        },
+        {
+          "key": "Vincent Pieter Semeyn Esser",
+          "value": 33
+        },
+        {
+          "key": "Jan Gillisz. van Vliet",
+          "value": 28
+        },
+        {
+          "key": "Dominique Vivant Denon (baron)",
+          "value": 27
+        },
+        {
+          "key": "Abraham Bredius",
+          "value": 26
+        },
+        {
+          "key": "Ernst Willem Jan Bagelaar",
+          "value": 25
+        },
+        {
+          "key": "François Vivares",
+          "value": 25
+        },
+        {
+          "key": "James Bretherton",
+          "value": 25
+        },
+        {
+          "key": "August Allebé",
+          "value": 23
+        },
+        {
+          "key": "Adolphe Mouilleron",
+          "value": 22
+        },
+        {
+          "key": "Antoine de Marcenay de Ghuy",
+          "value": 22
+        },
+        {
+          "key": "Lambertus Antonius Claessens",
+          "value": 22
+        },
+        {
+          "key": "M.C. Lebret",
+          "value": 22
+        },
+        {
+          "key": "Salomon Savery",
+          "value": 22
+        },
+        {
+          "key": "Pieter Louw",
+          "value": 21
+        },
+        {
+          "key": "Claude Henri Watelet",
+          "value": 20
+        },
+        {
+          "key": "Simon Koene",
+          "value": 20
+        },
+        {
+          "key": "Thomas Worlidge",
+          "value": 19
+        },
+        {
+          "key": "Cornelis Gerardus 't Hooft",
+          "value": 18
+        },
+        {
+          "key": "John Smith of Chichester",
+          "value": 18
+        },
+        {
+          "key": "Moses ter Borch",
+          "value": 18
+        },
+        {
+          "key": "Jacob Houbraken",
+          "value": 17
+        },
+        {
+          "key": "Jan Veth",
+          "value": 17
+        },
+        {
+          "key": "Johann Daniel Laurentz",
+          "value": 17
+        },
+        {
+          "key": "Willem Drost",
+          "value": 17
+        },
+        {
+          "key": "Émile Bernard",
+          "value": 17
+        },
+        {
+          "key": "Adam von Bartsch",
+          "value": 15
+        },
+        {
+          "key": "Cornelis Hofstede de Groot",
+          "value": 15
+        },
+        {
+          "key": "Henricus Wilhelmus Couwenberg",
+          "value": 15
+        },
+        {
+          "key": "Odilon Redon",
+          "value": 15
+        },
+        {
+          "key": "Richard Byron",
+          "value": 15
+        },
+        {
+          "key": "Richard Houston",
+          "value": 15
+        },
+        {
+          "key": "William James Smith",
+          "value": 15
+        },
+        {
+          "key": "Cornelis Ploos van Amstel",
+          "value": 14
+        },
+        {
+          "key": "Ferdinand Bol",
+          "value": 14
+        },
+        {
+          "key": "Georg Leopold Hertel",
+          "value": 14
+        },
+        {
+          "key": "Matthijs Pool",
+          "value": 14
+        },
+        {
+          "key": "Philips Koninck",
+          "value": 14
+        },
+        {
+          "key": "Constantino Cumano",
+          "value": 13
+        },
+        {
+          "key": "Honoré Coussin",
+          "value": 13
+        },
+        {
+          "key": "Jan Stolker",
+          "value": 13
+        },
+        {
+          "key": "Johan Braakensiek",
+          "value": 13
+        },
+        {
+          "key": "Émile Durand-Gréville",
+          "value": 13
+        },
+        {
+          "key": "Atelier Rembrandt",
+          "value": 12
+        },
+        {
+          "key": "Carl Ernst Christoph Hess",
+          "value": 12
+        },
+        {
+          "key": "James McArdell",
+          "value": 12
+        },
+        {
+          "key": "William Pether",
+          "value": 12
+        },
+        {
+          "key": "jonkheer Jan Six",
+          "value": 12
+        },
+        {
+          "key": "Anne Claude Philippe Caylus",
+          "value": 10
+        },
+        {
+          "key": "Joachim Martin Falbe",
+          "value": 10
+        },
+        {
+          "key": "Samuel van Hoogstraten",
+          "value": 10
+        },
+        {
+          "key": "David van der Kellen (1804-1879)",
+          "value": 9
+        },
+        {
+          "key": "Johan Antoni Kauclitz Colizzi",
+          "value": 9
+        },
+        {
+          "key": "Johannes de Koo",
+          "value": 9
+        },
+        {
+          "key": "Cornelis van der Griendt",
+          "value": 8
+        },
+        {
+          "key": "Diederik Jan Singendonck",
+          "value": 8
+        },
+        {
+          "key": "Francesco Novelli",
+          "value": 8
+        },
+        {
+          "key": "Herman Johannes Aloysius Maria Schaepman",
+          "value": 8
+        },
+        {
+          "key": "Jacobus Ludovicus Cornet",
+          "value": 8
+        },
+        {
+          "key": "Jan Lievens",
+          "value": 8
+        },
+        {
+          "key": "Johann Gottfried Haid",
+          "value": 8
+        },
+        {
+          "key": "Jozef Israëls",
+          "value": 8
+        },
+        {
+          "key": "Jurriaan Cootwijck",
+          "value": 8
+        },
+        {
+          "key": "Louis Marvy",
+          "value": 8
+        },
+        {
+          "key": "Sauveur Legros",
+          "value": 8
+        },
+        {
+          "key": "Berry Slok",
+          "value": 7
+        },
+        {
+          "key": "Carl Friedrich Holtzmann",
+          "value": 7
+        },
+        {
+          "key": "David Deuchar",
+          "value": 7
+        },
+        {
+          "key": "Eduard van Rijn",
+          "value": 7
+        },
+        {
+          "key": "Frans Buffa en Zonen",
+          "value": 7
+        },
+        {
+          "key": "Henri J. Zimmerman",
+          "value": 7
+        },
+        {
+          "key": "Johan Melchior Faddegon",
+          "value": 7
+        },
+        {
+          "key": "Johannes Mock",
+          "value": 7
+        },
+        {
+          "key": "John Greenwood",
+          "value": 7
+        },
+        {
+          "key": "Marius Bauer",
+          "value": 7
+        },
+        {
+          "key": "Michael Willmann",
+          "value": 7
+        },
+        {
+          "key": "Pieter de With",
+          "value": 7
+        },
+        {
+          "key": "Richard Earlom",
+          "value": 7
+        },
+        {
+          "key": "William Young Ottley",
+          "value": 7
+        },
+        {
+          "key": "Andries Jager",
+          "value": 6
+        },
+        {
+          "key": "Charles Albert Waltner",
+          "value": 6
+        },
+        {
+          "key": "Cornelis Danckerts (I)",
+          "value": 6
+        },
+        {
+          "key": "Giuseppe Longhi",
+          "value": 6
+        },
+        {
+          "key": "Hendrick Peter Godfried Quack",
+          "value": 6
+        },
+        {
+          "key": "James Hazard",
+          "value": 6
+        },
+        {
+          "key": "Jan Victors",
+          "value": 6
+        },
+        {
+          "key": "Johann Anton Riedel",
+          "value": 6
+        },
+        {
+          "key": "Karel Wetselaar",
+          "value": 6
+        }
+      ],
+      "name": "principalMaker",
+      "otherTerms": 4621,
+      "prettyName": 10
+    },
+    {
+      "facets": [
+        {
+          "key": "print",
+          "value": 3386
+        },
+        {
+          "key": "letter",
+          "value": 348
+        },
+        {
+          "key": "drawing",
+          "value": 232
+        },
+        {
+          "key": "photograph",
+          "value": 147
+        },
+        {
+          "key": "photomechanical print",
+          "value": 85
+        },
+        {
+          "key": "poster",
+          "value": 68
+        },
+        {
+          "key": "painting",
+          "value": 38
+        },
+        {
+          "key": "medal",
+          "value": 37
+        },
+        {
+          "key": "carte-de-visite",
+          "value": 24
+        },
+        {
+          "key": "history medal",
+          "value": 20
+        },
+        {
+          "key": "cabinet photograph",
+          "value": 9
+        },
+        {
+          "key": "fragment",
+          "value": 4
+        },
+        {
+          "key": "box",
+          "value": 3
+        },
+        {
+          "key": "text sheet",
+          "value": 3
+        },
+        {
+          "key": "facsimile",
+          "value": 2
+        },
+        {
+          "key": "medal box",
+          "value": 2
+        },
+        {
+          "key": "stereograph",
+          "value": 2
+        },
+        {
+          "key": "coin",
+          "value": 1
+        },
+        {
+          "key": "document",
+          "value": 1
+        },
+        {
+          "key": "light (window)",
+          "value": 1
+        },
+        {
+          "key": "locket",
+          "value": 1
+        },
+        {
+          "key": "pipe",
+          "value": 1
+        },
+        {
+          "key": "poem",
+          "value": 1
+        }
+      ],
+      "name": "type",
+      "otherTerms": 0,
+      "prettyName": 3
+    },
+    {
+      "facets": [
+        {
+          "key": "17",
+          "value": 1882
+        },
+        {
+          "key": "19",
+          "value": 1172
+        },
+        {
+          "key": "18",
+          "value": 952
+        },
+        {
+          "key": "20",
+          "value": 455
+        },
+        {
+          "key": "21",
+          "value": 18
+        },
+        {
+          "key": "16",
+          "value": 5
+        },
+        {
+          "key": "-2",
+          "value": 2
+        },
+        {
+          "key": "15",
+          "value": 1
+        }
+      ],
+      "name": "dating.period",
+      "otherTerms": 0,
+      "prettyName": 4
+    },
+    {
+      "facets": [
+        {
+          "key": "Amsterdam",
+          "value": 559
+        },
+        {
+          "key": "Netherlands",
+          "value": 368
+        },
+        {
+          "key": "Paris",
+          "value": 284
+        },
+        {
+          "key": "The Hague",
+          "value": 97
+        },
+        {
+          "key": "London",
+          "value": 93
+        },
+        {
+          "key": "France",
+          "value": 72
+        },
+        {
+          "key": "Leiden",
+          "value": 55
+        },
+        {
+          "key": "Northern Netherlands",
+          "value": 51
+        },
+        {
+          "key": "Utrecht",
+          "value": 43
+        },
+        {
+          "key": "Germany",
+          "value": 40
+        },
+        {
+          "key": "Vienna",
+          "value": 37
+        },
+        {
+          "key": "Low Countries",
+          "value": 23
+        },
+        {
+          "key": "Berlin",
+          "value": 21
+        },
+        {
+          "key": "Dordrecht",
+          "value": 20
+        },
+        {
+          "key": "Augsburg",
+          "value": 17
+        },
+        {
+          "key": "England",
+          "value": 16
+        },
+        {
+          "key": "Haarlem",
+          "value": 15
+        },
+        {
+          "key": "Brussels",
+          "value": 14
+        },
+        {
+          "key": "Italy",
+          "value": 13
+        },
+        {
+          "key": "Rotterdam",
+          "value": 11
+        },
+        {
+          "key": "Antwerp",
+          "value": 10
+        },
+        {
+          "key": "Europe",
+          "value": 6
+        },
+        {
+          "key": "Nijmegen",
+          "value": 5
+        },
+        {
+          "key": "? The Hague",
+          "value": 4
+        },
+        {
+          "key": "New York (city)",
+          "value": 4
+        },
+        {
+          "key": "unknown",
+          "value": 4
+        },
+        {
+          "key": "? Netherlands",
+          "value": 3
+        },
+        {
+          "key": "Arnhem",
+          "value": 3
+        },
+        {
+          "key": "Glasgow",
+          "value": 3
+        },
+        {
+          "key": "Hoorn (North Holland)",
+          "value": 3
+        },
+        {
+          "key": "Zeist",
+          "value": 3
+        },
+        {
+          "key": "Belgium",
+          "value": 2
+        },
+        {
+          "key": "Den Bosch",
+          "value": 2
+        },
+        {
+          "key": "Gouda",
+          "value": 2
+        },
+        {
+          "key": "Groningen (province)",
+          "value": 2
+        },
+        {
+          "key": "Rome",
+          "value": 2
+        },
+        {
+          "key": "Venice",
+          "value": 2
+        },
+        {
+          "key": "? Germany",
+          "value": 1
+        },
+        {
+          "key": "? Northern Netherlands",
+          "value": 1
+        },
+        {
+          "key": "? Paris",
+          "value": 1
+        },
+        {
+          "key": "Delft",
+          "value": 1
+        },
+        {
+          "key": "Dutch East Indies, The",
+          "value": 1
+        },
+        {
+          "key": "Enkhuizen",
+          "value": 1
+        },
+        {
+          "key": "Middelburg",
+          "value": 1
+        },
+        {
+          "key": "Naples",
+          "value": 1
+        },
+        {
+          "key": "Oss",
+          "value": 1
+        },
+        {
+          "key": "Overschie",
+          "value": 1
+        },
+        {
+          "key": "Southern Netherlands",
+          "value": 1
+        },
+        {
+          "key": "Suriname",
+          "value": 1
+        },
+        {
+          "key": "Voorburg",
+          "value": 1
+        },
+        {
+          "key": "Warmond",
+          "value": 1
+        }
+      ],
+      "name": "place",
+      "otherTerms": 0,
+      "prettyName": 2
+    },
+    {
+      "facets": [
+        {
+          "key": "paper",
+          "value": 3894
+        },
+        {
+          "key": "ink",
+          "value": 609
+        },
+        {
+          "key": "cardboard",
+          "value": 157
+        },
+        {
+          "key": "photographic support",
+          "value": 107
+        },
+        {
+          "key": "Japanese paper (handmade paper)",
+          "value": 82
+        },
+        {
+          "key": "chalk",
+          "value": 79
+        },
+        {
+          "key": "Japanese paper",
+          "value": 65
+        },
+        {
+          "key": "pencil",
+          "value": 42
+        },
+        {
+          "key": "deck paint",
+          "value": 41
+        },
+        {
+          "key": "oil paint (paint)",
+          "value": 38
+        },
+        {
+          "key": "bronze (metal)",
+          "value": 30
+        },
+        {
+          "key": "panel",
+          "value": 21
+        },
+        {
+          "key": "baryta paper",
+          "value": 18
+        },
+        {
+          "key": "paint (coating)",
+          "value": 18
+        },
+        {
+          "key": "parchment (animal material)",
+          "value": 17
+        },
+        {
+          "key": "canvas",
+          "value": 14
+        },
+        {
+          "key": "prepared paper",
+          "value": 12
+        },
+        {
+          "key": "terracotta (clay material)",
+          "value": 11
+        },
+        {
+          "key": "China paper",
+          "value": 9
+        },
+        {
+          "key": "silk",
+          "value": 9
+        },
+        {
+          "key": "watercolor (paint)",
+          "value": 9
+        },
+        {
+          "key": "copper (metal)",
+          "value": 6
+        },
+        {
+          "key": "gypsum",
+          "value": 6
+        },
+        {
+          "key": "metal",
+          "value": 6
+        },
+        {
+          "key": "printing ink",
+          "value": 6
+        },
+        {
+          "key": "cartridge paper",
+          "value": 5
+        },
+        {
+          "key": "glass",
+          "value": 5
+        },
+        {
+          "key": "silver (metal)",
+          "value": 5
+        },
+        {
+          "key": "wool",
+          "value": 5
+        },
+        {
+          "key": "gouache (paint)",
+          "value": 4
+        },
+        {
+          "key": "graphite (mineral)",
+          "value": 4
+        },
+        {
+          "key": "oak (wood)",
+          "value": 4
+        },
+        {
+          "key": "velvet (fabric weave)",
+          "value": 4
+        },
+        {
+          "key": "linen (material)",
+          "value": 3
+        },
+        {
+          "key": "tin plate",
+          "value": 3
+        },
+        {
+          "key": "wood (plant material)",
+          "value": 3
+        },
+        {
+          "key": "RC paper",
+          "value": 2
+        },
+        {
+          "key": "brass (alloy)",
+          "value": 2
+        },
+        {
+          "key": "gold leaf",
+          "value": 2
+        },
+        {
+          "key": "leather",
+          "value": 2
+        },
+        {
+          "key": "tin (metal)",
+          "value": 2
+        },
+        {
+          "key": "wax",
+          "value": 2
+        },
+        {
+          "key": "India ink (ink)",
+          "value": 1
+        },
+        {
+          "key": "alloy",
+          "value": 1
+        },
+        {
+          "key": "ball-point pen",
+          "value": 1
+        },
+        {
+          "key": "bronze paint",
+          "value": 1
+        },
+        {
+          "key": "lead (metal)",
+          "value": 1
+        },
+        {
+          "key": "linden",
+          "value": 1
+        },
+        {
+          "key": "mahogany (wood)",
+          "value": 1
+        },
+        {
+          "key": "morocco (leather)",
+          "value": 1
+        },
+        {
+          "key": "newsprint",
+          "value": 1
+        },
+        {
+          "key": "pipe clay",
+          "value": 1
+        },
+        {
+          "key": "plywood",
+          "value": 1
+        },
+        {
+          "key": "tracing paper",
+          "value": 1
+        },
+        {
+          "key": "zinc",
+          "value": 1
+        }
+      ],
+      "name": "material",
+      "otherTerms": 0,
+      "prettyName": 5
+    },
+    {
+      "facets": [
+        {
+          "key": "etching",
+          "value": 3007
+        },
+        {
+          "key": "drypoint",
+          "value": 835
+        },
+        {
+          "key": "pen",
+          "value": 589
+        },
+        {
+          "key": "writing (processes)",
+          "value": 421
+        },
+        {
+          "key": "engraving",
+          "value": 291
+        },
+        {
+          "key": "brush",
+          "value": 143
+        },
+        {
+          "key": "printing",
+          "value": 86
+        },
+        {
+          "key": "albumen print",
+          "value": 56
+        },
+        {
+          "key": "counterproof",
+          "value": 42
+        },
+        {
+          "key": "collotype",
+          "value": 37
+        },
+        {
+          "key": "salted paper print",
+          "value": 33
+        },
+        {
+          "key": "gelatin silver print",
+          "value": 30
+        },
+        {
+          "key": "letterpress printing",
+          "value": 27
+        },
+        {
+          "key": "wood engraving",
+          "value": 26
+        },
+        {
+          "key": "steel engraving",
+          "value": 21
+        },
+        {
+          "key": "casting",
+          "value": 18
+        },
+        {
+          "key": "striking (metalworking)",
+          "value": 17
+        },
+        {
+          "key": "paint",
+          "value": 9
+        },
+        {
+          "key": "retroussage",
+          "value": 7
+        },
+        {
+          "key": "carbon print",
+          "value": 4
+        },
+        {
+          "key": "sewing",
+          "value": 4
+        },
+        {
+          "key": "etching needle",
+          "value": 3
+        },
+        {
+          "key": "ball-point pen",
+          "value": 2
+        },
+        {
+          "key": "cutting",
+          "value": 2
+        },
+        {
+          "key": "gild",
+          "value": 2
+        },
+        {
+          "key": "photolithography",
+          "value": 2
+        },
+        {
+          "key": "Polaroid",
+          "value": 1
+        },
+        {
+          "key": "drawing",
+          "value": 1
+        },
+        {
+          "key": "embroidering",
+          "value": 1
+        },
+        {
+          "key": "gelatin silver slide on glass",
+          "value": 1
+        },
+        {
+          "key": "lacquering",
+          "value": 1
+        },
+        {
+          "key": "linocut",
+          "value": 1
+        },
+        {
+          "key": "marbled paper",
+          "value": 1
+        },
+        {
+          "key": "painting",
+          "value": 1
+        },
+        {
+          "key": "printing block",
+          "value": 1
+        },
+        {
+          "key": "snipping",
+          "value": 1
+        }
+      ],
+      "name": "technique",
+      "otherTerms": 0,
+      "prettyName": 8
+    },
+    {
+      "facets": [
+        {
+          "key": " #737C84",
+          "value": 1206
+        },
+        {
+          "key": " #2F4F4F",
+          "value": 969
+        },
+        {
+          "key": "#FBF6E1",
+          "value": 929
+        },
+        {
+          "key": " #E0CC91",
+          "value": 653
+        },
+        {
+          "key": " #FBF6E1",
+          "value": 446
+        },
+        {
+          "key": " #F6ECF3",
+          "value": 374
+        },
+        {
+          "key": "#737C84",
+          "value": 161
+        },
+        {
+          "key": " #000000",
+          "value": 153
+        },
+        {
+          "key": " #B5BFCC",
+          "value": 151
+        },
+        {
+          "key": "#2F4F4F",
+          "value": 134
+        },
+        {
+          "key": "#E0CC91",
+          "value": 120
+        },
+        {
+          "key": " #B35A1F",
+          "value": 77
+        },
+        {
+          "key": "#000000",
+          "value": 40
+        },
+        {
+          "key": " #F49B7A",
+          "value": 13
+        },
+        {
+          "key": "#F6ECF3",
+          "value": 10
+        },
+        {
+          "key": " #367614",
+          "value": 6
+        },
+        {
+          "key": "#B35A1F",
+          "value": 5
+        },
+        {
+          "key": "#B5BFCC",
+          "value": 5
+        },
+        {
+          "key": " #E09714",
+          "value": 4
+        },
+        {
+          "key": " #4279DB",
+          "value": 1
+        },
+        {
+          "key": " #6CD928",
+          "value": 1
+        },
+        {
+          "key": " #DAAFDA",
+          "value": 1
+        },
+        {
+          "key": " #F319F5",
+          "value": 1
+        }
+      ],
+      "name": "normalized32Colors.hex",
+      "otherTerms": 5460,
+      "prettyName": 9
+    }
+  ]
+}
