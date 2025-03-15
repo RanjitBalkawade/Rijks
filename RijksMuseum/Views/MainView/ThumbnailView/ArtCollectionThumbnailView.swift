@@ -46,3 +46,7 @@ struct ArtCollectionThumbnailView: View {
         }
     }
 }
+
+#Preview {
+    ArtCollectionThumbnailView(viewModel: ArtCollectionThumbnailViewModel(article: ArtFixtures.art)).environment(Coordinator())
+}

@@ -18,3 +18,7 @@ struct BuyView: View {
         }
     }
 }
+
+#Preview {
+    BuyView().environment(Coordinator())
+}

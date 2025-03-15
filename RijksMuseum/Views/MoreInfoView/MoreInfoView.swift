@@ -19,3 +19,7 @@ struct MoreInfoView: View {
     }
     
 }
+
+#Preview {
+    MoreInfoView().environment(Coordinator())
+}

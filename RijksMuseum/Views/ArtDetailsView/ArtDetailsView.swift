@@ -54,3 +54,22 @@ struct ArtDetailsView: View {
         Text("Loading...")
     }
 }
+
+//Success
+#Preview {
+    let mockService = MockArtGetService()
+    mockService.artDetailsHandler = { _ in
+        ArtFixtures.getArtDetails()
+    }
+    let viewModel = ArtDetailsViewModel(service: mockService, objectNumber: ArtFixtures.art.objectNumber!)
+    return ArtDetailsView(viewModel: viewModel).environment(Coordinator())
+}
+
+//Failure
+#Preview {
+    let mockService = MockArtGetService()
+    mockService.getArtShouldReturnError = true
+    let viewModel = ArtDetailsViewModel(service: mockService, objectNumber: ArtFixtures.art.objectNumber!)
+    return ArtDetailsView(viewModel: viewModel).environment(Coordinator())
+}
+
