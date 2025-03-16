@@ -6,7 +6,6 @@
 //
 
 import Foundation
-@testable import RijksMuseum
 
 class ArtFixtures {
     

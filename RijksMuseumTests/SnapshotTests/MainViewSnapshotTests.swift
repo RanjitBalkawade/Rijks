@@ -25,9 +25,9 @@ class MainViewSnapshotTests: XCTestCase {
         let mainViewModel = MainViewModel(service: mockService)
         let view = MainView(viewModel: mainViewModel).environment(Coordinator())
         let viewController = UIHostingController(rootView: view)
-        
+        let traits = UITraitCollection(userInterfaceStyle: .dark)
         await mainViewModel.loadData(with: "")
-        assertSnapshot(of: viewController, as: .image(on: .iPhone13), record: false)
+        assertSnapshot(of: viewController, as: .image(on: .iPhone13, traits: traits), record: false)
     }
     
     @MainActor
@@ -38,9 +38,9 @@ class MainViewSnapshotTests: XCTestCase {
         let mainViewModel = MainViewModel(service: mockService)
         let view = MainView(viewModel: mainViewModel).environment(Coordinator())
         let viewController = UIHostingController(rootView: view)
-        
+        let traits = UITraitCollection(userInterfaceStyle: .dark)
         await mainViewModel.loadData(with: "")
-        assertSnapshot(of: viewController, as: .image(on: .iPhone13), record: false)
+        assertSnapshot(of: viewController, as: .image(on: .iPhone13, traits: traits), record: false)
     }
     
 
@@ -50,11 +50,11 @@ class MainViewSnapshotTests: XCTestCase {
         let mainViewModel = MainViewModel(service: mockService)
         let view = MainView(viewModel: mainViewModel).environment(Coordinator())
         let viewController = UIHostingController(rootView: view)
-        
+        let traits = UITraitCollection(userInterfaceStyle: .dark)
         mockService.artCollectionHandler = { _ in
             return ArtFixtures.getArtCollection()
         }
         
-        assertSnapshot(of: viewController, as: .image(on: .iPhone13), record: false)
+        assertSnapshot(of: viewController, as: .image(on: .iPhone13, traits: traits), record: false)
     }
 }

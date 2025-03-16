@@ -6,7 +6,6 @@
 //
 
 import Foundation
-@testable import RijksMuseum
 
 enum MockError: Error {
     case generalError
