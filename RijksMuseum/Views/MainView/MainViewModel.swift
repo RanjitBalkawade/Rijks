@@ -16,21 +16,29 @@ class MainViewModel: Identifiable {
         case loading
     }
     
+    //MARK: - Internal properties
+    
     var title: String {
         "Articles"
     }
     
     private(set) var viewState: MainViewState = .loading
     
-    @ObservationIgnored private(set) var collectionThumbnailViewModels: [ArtCollectionThumbnailViewModel] = []
+    @ObservationIgnored
+    private(set) var collectionThumbnailViewModels: [ArtCollectionThumbnailViewModel] = []
     
-    @ObservationIgnored private var artObjects = [ArtObject]() {
+    //MARK: - Private properties
+    
+    @ObservationIgnored
+    private var artObjects = [ArtObject]() {
         didSet {
             collectionThumbnailViewModels = artObjects.map { ArtCollectionThumbnailViewModel(article: $0) }
         }
     }
     
     private let service: ArtCollectionGetServiceProtocol
+    
+    //MARK: - Initialiser
     
     init(service: ArtCollectionGetServiceProtocol) {
         self.service = service

@@ -9,6 +9,8 @@ import Foundation
 
 class BuyViewModel {
     
+    //MARK: - Internal properties
+    
     var buyButtonTitle: String {
         "Buy"
     }

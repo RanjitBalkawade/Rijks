@@ -9,6 +9,8 @@ import Foundation
 
 class MoreInfoViewModel {
     
+    //MARK: - Internal properties
+    
     var cancelButtonTitle: String {
         "Cancel"
     }

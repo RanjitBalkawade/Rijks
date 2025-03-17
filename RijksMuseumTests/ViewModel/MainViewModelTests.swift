@@ -32,7 +32,7 @@ class MainViewModelTests: XCTestCase {
         XCTAssertTrue(sut.collectionThumbnailViewModels.isEmpty)
     }
     
-    func testMainViewModel_WhenLoadDataSucceeds_shouldReturnSuccessViewState() async throws {
+    func testMainViewModel_WhenLoadDataSucceeds_shouldReturnSuccessViewState() async {
         
         let expectedArtObjects = ArtFixtures.getArtCollection()
         self.service.artCollectionHandler = { _ in
@@ -44,7 +44,7 @@ class MainViewModelTests: XCTestCase {
         XCTAssertEqual(sut.collectionThumbnailViewModels.count, expectedArtObjects.artObjects?.count)
     }
     
-    func testMainViewModel_WhenLoadingData_shouldReturnLoadingViewState() async throws {
+    func testMainViewModel_WhenLoadingData_shouldReturnLoadingViewState() async {
         self.service.artCollectionHandler = { _ in
             XCTAssertEqual(self.sut.viewState, MainViewModel.MainViewState.loading)
             return ArtFixtures.getArtCollection()
@@ -52,7 +52,7 @@ class MainViewModelTests: XCTestCase {
         await sut.loadData(with: "")
     }
     
-    func testMainViewModel_WhenLoadgDataFails_shouldReturnFailureViewState() async throws {
+    func testMainViewModel_WhenLoadgDataFails_shouldReturnFailureViewState() async {
         self.service.getCollectionShouldReturnError = true
         XCTAssertEqual(sut.viewState, MainViewModel.MainViewState.loading)
         await sut.loadData(with: "")

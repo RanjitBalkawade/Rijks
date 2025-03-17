@@ -16,6 +16,8 @@ class ArtDetailsViewModel {
         case loading
     }
     
+    //MARK: - Internal properties
+    
     var title: String {
         "Article"
     }
@@ -30,11 +32,16 @@ class ArtDetailsViewModel {
     
     private(set) var viewState: ViewState = .loading
     
-    @ObservationIgnored var artObject: ArtObject?
+    //MARK: - Private properties
+    
+    @ObservationIgnored
+    private var artObject: ArtObject?
     
     private let service: ArtGetServiceProtocol
     private let objectNumber: String
     
+    //MARK: - Initializer
+
     init(service: ArtGetServiceProtocol, objectNumber: String) {
         self.service = service
         self.objectNumber = objectNumber

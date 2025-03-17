@@ -31,7 +31,7 @@ final class ArtDetailsViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.viewState, .loading)
     }
     
-    func testArtDetailsViewModel_LoadDataSuccess() async throws {
+    func testArtDetailsViewModel_LoadDataSuccess() async {
         // Given
         
         let expectedArtDetails = ArtFixtures.getArtDetails()
@@ -45,7 +45,6 @@ final class ArtDetailsViewModelTests: XCTestCase {
         
         // Then
         XCTAssertEqual(viewModel.viewState, .success)
-        XCTAssertEqual(viewModel.artObject?.longTitle, expectedArtDetails.artObject?.longTitle)
         XCTAssertEqual(viewModel.description, expectedArtDetails.artObject?.description)
         XCTAssertEqual(viewModel.imageUrl, expectedArtDetails.artObject?.webImage?.url)
     }
@@ -59,21 +58,22 @@ final class ArtDetailsViewModelTests: XCTestCase {
         
         // Then
         XCTAssertEqual(viewModel.viewState, .failure)
-        XCTAssertNil(viewModel.artObject)
     }
     
-    func testArtDetailsViewModel_DescriptionWhenArtObjectIsNil() {
+    func testArtDetailsViewModel_DescriptionWhenArtObjectIsNil() async {
         // Given
-        viewModel.artObject = nil
-        
+        mockService.getArtShouldReturnError = true
+        // When
+        await viewModel.loadData()
         // Then
         XCTAssertEqual(viewModel.description, "-")
     }
     
-    func testArtDetailsViewModel_ImageUrlWhenArtObjectIsNil() {
+    func testArtDetailsViewModel_ImageUrlWhenArtObjectIsNil() async {
         // Given
-        viewModel.artObject = nil
-        
+        mockService.getArtShouldReturnError = true
+        // When
+        await viewModel.loadData()
         // Then
         XCTAssertNil(viewModel.imageUrl)
     }
