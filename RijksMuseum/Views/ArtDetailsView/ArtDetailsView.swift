@@ -11,7 +11,7 @@ import Kingfisher
 struct ArtDetailsView: View {
     
     @Environment(Coordinator.self) private var coordinator
-    @Bindable var viewModel: ArtDetailsViewModel
+    var viewModel: ArtDetailsViewModel
     
     var body: some View {
         VStack {
