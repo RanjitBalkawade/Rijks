@@ -24,11 +24,9 @@ struct MainView: View {
             }
         }
         .navigationTitle(viewModel.title)
-        .onAppear {
-            Task {
-                if viewModel.viewState != .success {
-                    await viewModel.loadData(with: Configuration.defaultQuery)
-                }
+        .task {
+            if viewModel.viewState != .success {
+                await viewModel.loadData(with: Configuration.defaultQuery)
             }
         }
     }

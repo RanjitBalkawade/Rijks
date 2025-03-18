@@ -25,11 +25,9 @@ struct ArtDetailsView: View {
             }
         }
         .navigationTitle(viewModel.title)
-        .onAppear {
-            Task {
-                if viewModel.viewState != .success {
-                    await viewModel.loadData()
-                }
+        .task {
+            if viewModel.viewState != .success {
+                await viewModel.loadData()
             }
         }
     }
