@@ -50,11 +50,6 @@
 			path = RijksMuseumTests;
 			sourceTree = "<group>";
 		};
-		CD6026EA2D82FDBB001DDE99 /* RijksMuseumUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RijksMuseumUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +89,6 @@
 				EDCE839B2E23B397000DCD00 /* Network */,
 				CD6026CF2D82FDBA001DDE99 /* RijksMuseum */,
 				CD6026E02D82FDBB001DDE99 /* RijksMuseumTests */,
-				CD6026EA2D82FDBB001DDE99 /* RijksMuseumUITests */,
 				CD6027752D8331D1001DDE99 /* Frameworks */,
 				CD6026CE2D82FDBA001DDE99 /* Products */,
 			);
@@ -181,9 +175,6 @@
 			);
 			dependencies = (
 				CD6026E92D82FDBB001DDE99 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CD6026EA2D82FDBB001DDE99 /* RijksMuseumUITests */,
 			);
 			name = RijksMuseumUITests;
 			packageProductDependencies = (
