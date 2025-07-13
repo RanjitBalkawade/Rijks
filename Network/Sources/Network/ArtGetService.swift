@@ -7,34 +7,32 @@
 //
 
 import Foundation
+import Models
 
-protocol ArtGetServiceProtocol {
+public protocol ArtGetServiceProtocol {
     func getArt(with objectNumber: String) async throws -> ArtDetails
 }
 
-extension ArtGetService: ArtGetServiceProtocol {}
-
-class ArtGetService: NetworkService, KeyEnabled, ComposablePath {
-    typealias T = ArtDetails
+public class ArtGetService: NetworkService, KeyEnabled, ComposablePath, ArtGetServiceProtocol {
+    public typealias T = ArtDetails
     
-    //MARK: - Private properties
+    // MARK: - Private properties
 
     private var defaultQueryItems: [String: String] {
         ["key": self.key]
     }
 
-    var session: URLSession
-    var urlString: String
+    public var session: URLSession
+    public var urlString: String
     
-    init(session: URLSession, urlString: String) {
+    public init(session: URLSession, urlString: String) {
         self.session = session
         self.urlString = urlString
     }
     
-    //MARK: - Internal methods
+    // MARK: - Public methods
     
-    func getArt(with objectNumber: String) async throws -> ArtDetails {
-        
+    public func getArt(with objectNumber: String) async throws -> ArtDetails {
         guard let url = self.urlRequestWithPathComponents(urlString: self.urlString, pathComponents: [objectNumber]) else {
             throw DataResponseError.invalidURLRequest
         }
@@ -43,4 +41,3 @@ class ArtGetService: NetworkService, KeyEnabled, ComposablePath {
         return try await self.execute(urlRequest: urlRequest)
     }
 }
-

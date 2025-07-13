@@ -7,34 +7,33 @@
 //
 
 import Foundation
+import Models
 
-protocol ArtCollectionGetServiceProtocol {
+public protocol ArtCollectionGetServiceProtocol {
     func getCollection(with query: String) async throws -> ArtCollection
 }
 
-extension ArtCollectionGetService: ArtCollectionGetServiceProtocol {}
-
-class ArtCollectionGetService: NetworkService, KeyEnabled {
+public class ArtCollectionGetService: NetworkService, KeyEnabled, ArtCollectionGetServiceProtocol {
     
-    typealias T = ArtCollection
+    public typealias T = ArtCollection
     
-    //MARK: - Private properties
+    // MARK: - Private properties
 
     private var defaultQueryItems: [String: String] {
         ["key": self.key]
     }
     
-    var session: URLSession
-    var urlString: String
+    public var session: URLSession
+    public var urlString: String
     
-    init(session: URLSession, urlString: String) {
+    public init(session: URLSession, urlString: String) {
         self.session = session
         self.urlString = urlString
     }
 
-    //MARK: - Internal methods
+    // MARK: - Public methods
     
-    func getCollection(with query: String) async throws -> ArtCollection {
+    public func getCollection(with query: String) async throws -> ArtCollection {
         guard let urlRequest = self.getURLRequest(with: query) else {
             throw DataResponseError.invalidURLRequest
         }
@@ -42,7 +41,7 @@ class ArtCollectionGetService: NetworkService, KeyEnabled {
         return try await self.execute(urlRequest: urlRequest)
     }
 
-    //MARK: - Private methods
+    // MARK: - Private methods
 
     private func getURLRequest(with query: String) -> URLRequest? {
         guard let url = URL(string: self.urlString) else {

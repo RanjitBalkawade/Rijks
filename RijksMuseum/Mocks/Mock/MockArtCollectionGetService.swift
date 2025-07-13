@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import Models
+import Network
 
 enum MockError: Error {
     case generalError

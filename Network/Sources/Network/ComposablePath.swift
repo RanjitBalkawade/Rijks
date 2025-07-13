@@ -14,8 +14,7 @@ protocol ComposablePath {
 extension ComposablePath {
     func urlRequestWithPathComponents(urlString: String, pathComponents: [String]) -> URL? {
         var url = URL(string: urlString)
-        pathComponents.forEach { url?.appendPathComponent($0)}
+        pathComponents.forEach { url?.appendPathComponent($0) }
         return url
     }
-    
 }

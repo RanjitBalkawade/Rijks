@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum DataResponseError: Error {
+public enum DataResponseError: Error {
     case network
     case decoding
     case noData

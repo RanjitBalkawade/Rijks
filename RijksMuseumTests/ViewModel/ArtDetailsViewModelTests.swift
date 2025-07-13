@@ -6,9 +6,7 @@
 //
 
 import XCTest
-
-@testable
-import RijksMuseum
+@testable import RijksMuseum
 
 final class ArtDetailsViewModelTests: XCTestCase {
     

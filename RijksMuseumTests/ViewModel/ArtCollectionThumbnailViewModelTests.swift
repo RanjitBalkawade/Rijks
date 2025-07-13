@@ -7,8 +7,8 @@
 
 
 import XCTest
-@testable
-import RijksMuseum
+@testable import Models
+@testable import RijksMuseum
 
 final class ArtCollectionThumbnailViewModelTests: XCTestCase {
     
