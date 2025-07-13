@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - ArtCollection
-public class ArtCollection: Codable {
+public struct ArtCollection: Codable {
 
     public let artObjects: [ArtObject]?
 
@@ -18,7 +18,7 @@ public class ArtCollection: Codable {
     }
 }
 
-public class ArtDetails: Codable {
+public struct ArtDetails: Codable {
     public let artObject: ArtObject?
 
     public init(artObject: ArtObject?) {
@@ -27,7 +27,7 @@ public class ArtDetails: Codable {
 }
 
 // MARK: - ArtObject
-public class ArtObject: Codable {
+public struct ArtObject: Codable {
     public let links: Links?
     public let id, objectNumber, title, description: String?
     public let hasImage: Bool?
@@ -50,7 +50,7 @@ public class ArtObject: Codable {
 }
 
 // MARK: - Image
-public class Image: Codable {
+public struct Image: Codable {
     public let guid: String?
     public let url: String?
 
@@ -61,7 +61,7 @@ public class Image: Codable {
 }
 
 // MARK: - Links
-public class Links: Codable {
+public struct Links: Codable {
     public let linksSelf, web: String?
 
     enum CodingKeys: String, CodingKey {
