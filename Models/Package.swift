@@ -18,6 +18,5 @@ let package = Package(
         .target(
             name: "Models"
         )
-    ],
-    swiftLanguageModes: [.v6]
+    ]
 )

@@ -26,11 +26,7 @@ let package = Package(
         ),
         .testTarget(
             name: "NetworkTests",
-            dependencies: ["Network", "Models", "Mocks"],
-            swiftSettings: [
-              .unsafeFlags(["-Xfrontend", "-strict-concurrency=complete"])
-            ]
+            dependencies: ["Network", "Models", "Mocks"]
         ),
-    ],
-    swiftLanguageModes: [.v6]
+    ]
 )
