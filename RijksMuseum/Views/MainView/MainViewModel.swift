@@ -10,7 +10,7 @@ import Models
 import Network
 
 @Observable
-class MainViewModel: Identifiable {
+class MainViewModel {
     
     enum MainViewState {
         case success
@@ -62,16 +62,4 @@ class MainViewModel: Identifiable {
         }
     }
     
-}
-
-public extension String {
-
-  //MARK: - Public properties
-  
-  var isRemoteURL: Bool {
-    guard let url = URL(string: self),
-          let scheme = url.scheme?.lowercased()
-    else { return false }
-    return scheme == "http" || scheme == "https"
-  }
 }
