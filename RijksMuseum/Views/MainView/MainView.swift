@@ -51,8 +51,7 @@ struct MainView: View {
     }
 }
 
-//Success
-#Preview {
+#Preview("Success") {
     let mockService = MockArtCollectionGetService()
     mockService.artCollectionHandler = { _ in
         ArtFixtures.getArtCollection()
@@ -61,8 +60,7 @@ struct MainView: View {
     return MainView(viewModel: viewModel).environment(Coordinator())
 }
 
-//Failure
-#Preview {
+#Preview("Failure") {
     let mockService = MockArtCollectionGetService()
     mockService.getCollectionShouldReturnError = true
     let viewModel = MainViewModel(service: mockService)

@@ -38,6 +38,10 @@ struct ArtDetailsView: View {
                 KFImage(URL(string: imageUrl))
                     .resizable()
                     .scaledToFit()
+            } else {
+                Image(viewModel.placeHolderImageName)
+                    .resizable()
+                    .scaledToFit()
             }
             Text(viewModel.description)
                 .padding()
@@ -53,8 +57,7 @@ struct ArtDetailsView: View {
     }
 }
 
-//Success
-#Preview {
+#Preview("Success") {
     let mockService = MockArtGetService()
     mockService.artDetailsHandler = { _ in
         ArtFixtures.getArtDetails()
@@ -63,8 +66,7 @@ struct ArtDetailsView: View {
     return ArtDetailsView(viewModel: viewModel).environment(Coordinator())
 }
 
-//Failure
-#Preview {
+#Preview("Failure") {
     let mockService = MockArtGetService()
     mockService.getArtShouldReturnError = true
     let viewModel = ArtDetailsViewModel(service: mockService, objectNumber: ArtFixtures.art.objectNumber!)

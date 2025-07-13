@@ -30,7 +30,11 @@ class ArtCollectionThumbnailViewModel: Identifiable {
     var imageUrl: String? {
         self.artObject.webImage?.url
     }
-
+    
+    var placeHolderImageName: String {
+        "NoImage"
+    }
+    
     var objectNumber: String? {
         self.artObject.objectNumber
     }

@@ -21,6 +21,11 @@ struct ArtCollectionThumbnailView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 100)
+                } else {
+                    Image(viewModel.placeHolderImageName)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 80, height: 100)
                 }
                 VStack {
                     Text(viewModel.title)

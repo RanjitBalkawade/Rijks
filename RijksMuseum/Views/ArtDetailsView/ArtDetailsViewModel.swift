@@ -32,7 +32,11 @@ class ArtDetailsViewModel {
         self.artObject?.webImage?.url
     }
     
-    private(set) var viewState: ViewState = .loading
+    var placeHolderImageName: String {
+        "NoImage"
+    }
+    
+    var viewState: ViewState = .loading
     
     //MARK: - Private properties
     

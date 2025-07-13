@@ -32,10 +32,10 @@ public struct ArtObject: Codable {
     public let id, objectNumber, title, description: String?
     public let hasImage: Bool?
     public let longTitle: String?
-    public let webImage, headerImage: Image?
+    public let webImage, headerImage: ImageInfo?
     public let techniques: [String]?
 
-    public init(links: Links?, id: String?, objectNumber: String?, title: String?, hasImage: Bool?, longTitle: String?, webImage: Image?, headerImage: Image?, techniques: [String]?, description: String?) {
+    public init(links: Links?, id: String?, objectNumber: String?, title: String?, hasImage: Bool?, longTitle: String?, webImage: ImageInfo?, headerImage: ImageInfo?, techniques: [String]?, description: String?) {
         self.links = links
         self.id = id
         self.objectNumber = objectNumber
@@ -50,7 +50,7 @@ public struct ArtObject: Codable {
 }
 
 // MARK: - Image
-public struct Image: Codable {
+public struct ImageInfo: Codable {
     public let guid: String?
     public let url: String?
 

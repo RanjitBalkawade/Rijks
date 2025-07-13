@@ -17,8 +17,8 @@ class ArtFixtures {
         title: "abc",
         hasImage: true,
         longTitle: "longTitle",
-        webImage: Image(guid: "123", url: "url"),
-        headerImage: Image(guid: "123", url: "url"),
+        webImage: ImageInfo(guid: nil, url: nil),
+        headerImage: ImageInfo(guid: nil, url: nil),
         techniques: ["technique1", "technique2"],
         description: "decription"
     )

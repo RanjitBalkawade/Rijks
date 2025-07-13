@@ -24,7 +24,7 @@ class MainViewModel: Identifiable {
         "Articles"
     }
     
-    private(set) var viewState: MainViewState = .loading
+    var viewState: MainViewState = .loading
     
     @ObservationIgnored
     private(set) var collectionThumbnailViewModels: [ArtCollectionThumbnailViewModel] = []
@@ -62,4 +62,16 @@ class MainViewModel: Identifiable {
         }
     }
     
+}
+
+public extension String {
+
+  //MARK: - Public properties
+  
+  var isRemoteURL: Bool {
+    guard let url = URL(string: self),
+          let scheme = url.scheme?.lowercased()
+    else { return false }
+    return scheme == "http" || scheme == "https"
+  }
 }
