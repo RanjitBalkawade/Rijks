@@ -34,8 +34,8 @@ struct MainView: View {
     private var successView: some View {
         ScrollView {
             LazyVStack(alignment: .leading) {
-                ForEach((0..<viewModel.collectionThumbnailViewModels.count), id: \.self) { index in
-                    ArtCollectionThumbnailView(viewModel: viewModel.collectionThumbnailViewModels[index])
+                ForEach(viewModel.collectionThumbnailViewModels) { thumbnailVM in
+                    ArtCollectionThumbnailView(viewModel: thumbnailVM)
                 }
             }
             .padding()

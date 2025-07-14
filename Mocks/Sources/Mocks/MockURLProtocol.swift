@@ -31,7 +31,7 @@ public final class MockURLProtocolStore: @unchecked Sendable {
     
     //MARK: - Private properties
     
-    private let queue = DispatchQueue(label: "com.paywall.tests.MockURLProtocolStore")
+    private let queue = DispatchQueue(label: "com.tests.MockURLProtocolStore")
     private var _stubResponseData: Data?
     private var _response: HTTPURLResponse?
     private var _error: Error?
